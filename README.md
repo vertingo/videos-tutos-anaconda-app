@@ -12,7 +12,8 @@ Prérequies Anaconda CLI(https://www.anaconda.com/download/)
 ### 🌐 Créer un projet Anaconda
 
 ```
-anaconda-project init (Créer le fichier anaconda-project.yml) ou anaconda-project init --directory directory-name (Créer le dossier directory-name et créer dans ce dernier le anaconda-project.yml!)
+anaconda-project init (Créer le fichier anaconda-project.yml) ou anaconda-project init --directory directory-name 
+(Créer le dossier directory-name et créer dans ce dernier le anaconda-project.yml!)
 
 anaconda-project lock (Pour créer le anaconda-project-lock.yml si celui ci n'éxiste pas!)
 ```
@@ -34,7 +35,8 @@ anaconda-project add-command notebook_test.ipynb
 
 anaconda-project add-command plot app-path-filename
 
-anaconda-project add-command hello "python hello.py"  (Ajoute la commande hello qui éxecute le fichier hello.py. Si démandé spécifié avec A, B, ou C si il s'agit d'une Bokeh app, d'un NoteBook, ou d'une Commande!)
+anaconda-project add-command hello "python hello.py"  
+(Ajoute la commande hello qui éxecute le fichier hello.py. Si démandé spécifié avec A, B, ou C si il s'agit d'une Bokeh app, d'un NoteBook, ou d'une Commande!)
     
 anaconda-project add-command upload_notebook "anaconda upload test_notebook.ipynb"
 
@@ -65,7 +67,8 @@ anaconda-project add-variable VARIABLE_encrypt-flag (Create an encrypted variabl
 
 anaconda-project add-variable DB_PASSWORD
 
-anaconda-project add-variable --default=default_value VARIABLE (Avec l'option default la variable n'est pas demandé d'être renseigné par l'utilisateur sous forme d'input!)
+anaconda-project add-variable --default=default_value VARIABLE 
+(Avec l'option default la variable n'est pas demandé d'être renseigné par l'utilisateur sous forme d'input!)
 
 anaconda-project add-variable --default=petal_width COLUMN_TO_SHOW
 
@@ -107,7 +110,8 @@ conda install anaconda-client conda-build
 
 git clone https://github.com/Anaconda-Platform/anaconda-client
 
-cd anaconda-client/example-packages/conda/ (Contient un fichier build.sh, bld.bat, meta.yaml! Pour builder la version archivé du package build.sh pour Linux et bld.bat pour Windows!)
+cd anaconda-client/example-packages/conda/ 
+(Contient un fichier build.sh, bld.bat, meta.yaml! Pour builder la version archivé du package build.sh pour Linux et bld.bat pour Windows!)
 
 conda config --set anaconda_upload no
 conda build .    (Tous les packages build de cette façon sont placés dans un dossier: conda-bld) 
