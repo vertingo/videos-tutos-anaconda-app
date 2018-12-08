@@ -23,7 +23,8 @@ anaconda-project lock (Pour créer le anaconda-project-lock.yml si celui ci n'é
 ```
 anaconda-project run
 
-anaconda-project run command-name (Lance la commande command-name spécifié dans le anaconda-project.yml! Si aucune )
+anaconda-project run command-name (Lance la commande command-name spécifié dans le anaconda-project.yml! 
+Si aucune )
 ```
 
 ### 🌐 Ajouter une commande
@@ -87,7 +88,8 @@ anaconda-project add-service redis
 ### 🌐 Ajouter un download
 
 ```
-anaconda-project add-download IRIS_CSV https://raw.githubusercontent.com/bokeh/bokeh/f9aa6a8caae8c7c12efd32be95ec7b0216f62203/bokeh/sampledata/iris.csv
+anaconda-project add-download IRIS_CSV 
+https://raw.githubusercontent.com/bokeh/bokeh/f9aa6a8caae8c7c12efd32be95ec7b0216f62203/bokeh/sampledata/iris.csv
 ```
 
 ### 🌐 Ajouter une archive
