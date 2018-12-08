@@ -36,7 +36,8 @@ anaconda-project add-command notebook_test.ipynb
 anaconda-project add-command plot app-path-filename
 
 anaconda-project add-command hello "python hello.py"  
-(Ajoute la commande hello qui éxecute le fichier hello.py. Si démandé spécifié avec A, B, ou C si il s'agit d'une Bokeh app, d'un NoteBook, ou d'une Commande!)
+(Ajoute la commande hello qui éxecute le fichier hello.py. Si démandé spécifié avec A, B, ou C 
+si il s'agit d'une Bokeh app, d'un NoteBook, ou d'une Commande!)
     
 anaconda-project add-command upload_notebook "anaconda upload test_notebook.ipynb"
 
@@ -111,7 +112,8 @@ conda install anaconda-client conda-build
 git clone https://github.com/Anaconda-Platform/anaconda-client
 
 cd anaconda-client/example-packages/conda/ 
-(Contient un fichier build.sh, bld.bat, meta.yaml! Pour builder la version archivé du package build.sh pour Linux et bld.bat pour Windows!)
+(Contient un fichier build.sh, bld.bat, meta.yaml! 
+Pour builder la version archivé du package build.sh pour Linux et bld.bat pour Windows!)
 
 conda config --set anaconda_upload no
 conda build .    (Tous les packages build de cette façon sont placés dans un dossier: conda-bld) 
@@ -125,13 +127,15 @@ anaconda upload /path/to/conda-package.tar.bz2
 ### 🌐 Upload a Project
 
 ```
-anaconda-project upload (Taper simplement cette commande depuis le dossier racine de votre projet)
+anaconda-project upload 
+(Taper simplement cette commande depuis le dossier racine de votre projet)
 ```
 
 ### 🌐 Upload a NoteBook
 
 ```
-anaconda upload nom_de_votre_notebook.ipynb (Taper cette commande avec le nom de votre notebook au format ipynb)
+anaconda upload nom_de_votre_notebook.ipynb 
+(Taper cette commande avec le nom de votre notebook au format ipynb)
 ```
 
 ### 🌐 Upload an Environnement
@@ -147,7 +151,8 @@ anaconda upload my-environment.yml
 ### 🌐 NoteBookApp
 
 ```
-jupyter notebook --generate-config (Génére le fichier de configuration dans le répertoire C:\Users\nom_utilisateur\.jupyter)
+jupyter notebook --generate-config 
+(Génére le fichier de configuration dans le répertoire C:\Users\nom_utilisateur\.jupyter)
 ```
 
 Décommenter au moins les lignes suivantes dans C:\Users\tedal\.jupyter\jupyter_notebook_config.py
@@ -162,11 +167,13 @@ c.NotebookApp.port = 9999
 ```
 openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout mykey.key -out mycert.pem
 
-jupyter notebook --certfile=mycert.pem --keyfile mykey.key (Sécurise la connexion avec un protocole de cummunication SSL)
+jupyter notebook --certfile=mycert.pem --keyfile mykey.key 
+(Sécurise la connexion avec un protocole de cummunication SSL)
 
 jupyter notebook password
 
-jupyter notebook (Lancer le notebook dans le serveur, éditer un Notebook, lance une invite de commande, installer IPython)
+jupyter notebook 
+(Lancer le notebook dans le serveur, éditer un Notebook, lance une invite de commande, installer IPython)
 
 anaconda upload nom_de_votre_notebook.ipynb (Pour upload un Notebook!)
 ```
@@ -178,7 +185,9 @@ pip install ipyparallel
 
 ipcluster nbextension enable
 
-ipython --matplotlib (Aprés cette commande si vous avez des erreurs d'imports, désinstaller les packages et réinstaller les par exemple pip uninstall numpy, et ensuite pip install numpy)
+ipython --matplotlib 
+(Aprés cette commande si vous avez des erreurs d'imports, désinstaller les packages 
+et réinstaller les par exemple pip uninstall numpy, et ensuite pip install numpy)
 
 run pidigits.py
 
@@ -233,7 +242,8 @@ plt.ylabel('Count')
 ### 🌐 Génération de la doc
 
 ```
-conda env create (Créer l'environnement d'éxécution à partir du fichier environnement.yml)
+conda env create 
+(Créer l'environnement d'éxécution à partir du fichier environnement.yml)
 
 source activate anaconda-project-docs
 
