@@ -1,0 +1,11 @@
+prefix=C:/Users/tedal/OneDrive/Bureau/Projet Informatique/Anaconda/anaconda-project-master/envs/anaconda-project-dev/Library
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: libzmq
+Description: 0MQ c++ library
+Version: 4.2.5
+Libs: -L${libdir} -lzmq
+Libs.private: -lstdc++  -lsodium
+Cflags: -I${includedir} 

@@ -1,0 +1,5 @@
+[run]
+omit = */test/*,*/windows_cmdline.py
+
+[report]
+precision=2

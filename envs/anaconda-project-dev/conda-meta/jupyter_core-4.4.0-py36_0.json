@@ -1,0 +1,606 @@
+{
+  "arch": "x86_64",
+  "build": "py36_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.6,<3.7.0a0",
+    "traitlets"
+  ],
+  "extracted_package_dir": "C:\\Users\\tedal\\Anaconda3\\pkgs\\jupyter_core-4.4.0-py36_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/__pycache__/jupyter.cpython-36.pyc",
+    "Lib/site-packages/jupyter.py",
+    "Lib/site-packages/jupyter_core-4.4.0.dist-info/INSTALLER",
+    "Lib/site-packages/jupyter_core-4.4.0.dist-info/METADATA",
+    "Lib/site-packages/jupyter_core-4.4.0.dist-info/RECORD",
+    "Lib/site-packages/jupyter_core-4.4.0.dist-info/WHEEL",
+    "Lib/site-packages/jupyter_core-4.4.0.dist-info/entry_points.txt",
+    "Lib/site-packages/jupyter_core-4.4.0.dist-info/top_level.txt",
+    "Lib/site-packages/jupyter_core/__init__.py",
+    "Lib/site-packages/jupyter_core/__main__.py",
+    "Lib/site-packages/jupyter_core/__pycache__/__init__.cpython-36.pyc",
+    "Lib/site-packages/jupyter_core/__pycache__/__main__.cpython-36.pyc",
+    "Lib/site-packages/jupyter_core/__pycache__/application.cpython-36.pyc",
+    "Lib/site-packages/jupyter_core/__pycache__/command.cpython-36.pyc",
+    "Lib/site-packages/jupyter_core/__pycache__/migrate.cpython-36.pyc",
+    "Lib/site-packages/jupyter_core/__pycache__/paths.cpython-36.pyc",
+    "Lib/site-packages/jupyter_core/__pycache__/troubleshoot.cpython-36.pyc",
+    "Lib/site-packages/jupyter_core/__pycache__/version.cpython-36.pyc",
+    "Lib/site-packages/jupyter_core/application.py",
+    "Lib/site-packages/jupyter_core/command.py",
+    "Lib/site-packages/jupyter_core/migrate.py",
+    "Lib/site-packages/jupyter_core/paths.py",
+    "Lib/site-packages/jupyter_core/tests/__init__.py",
+    "Lib/site-packages/jupyter_core/tests/__pycache__/__init__.cpython-36.pyc",
+    "Lib/site-packages/jupyter_core/tests/__pycache__/mocking.cpython-36.pyc",
+    "Lib/site-packages/jupyter_core/tests/__pycache__/test_application.cpython-36.pyc",
+    "Lib/site-packages/jupyter_core/tests/__pycache__/test_command.cpython-36.pyc",
+    "Lib/site-packages/jupyter_core/tests/__pycache__/test_migrate.cpython-36.pyc",
+    "Lib/site-packages/jupyter_core/tests/__pycache__/test_paths.cpython-36.pyc",
+    "Lib/site-packages/jupyter_core/tests/dotipython/nbextensions/myext.js",
+    "Lib/site-packages/jupyter_core/tests/dotipython/profile_default/__pycache__/ipython_config.cpython-36.pyc",
+    "Lib/site-packages/jupyter_core/tests/dotipython/profile_default/__pycache__/ipython_console_config.cpython-36.pyc",
+    "Lib/site-packages/jupyter_core/tests/dotipython/profile_default/__pycache__/ipython_kernel_config.cpython-36.pyc",
+    "Lib/site-packages/jupyter_core/tests/dotipython/profile_default/__pycache__/ipython_nbconvert_config.cpython-36.pyc",
+    "Lib/site-packages/jupyter_core/tests/dotipython/profile_default/__pycache__/ipython_notebook_config.cpython-36.pyc",
+    "Lib/site-packages/jupyter_core/tests/dotipython/profile_default/ipython_config.py",
+    "Lib/site-packages/jupyter_core/tests/dotipython/profile_default/ipython_console_config.py",
+    "Lib/site-packages/jupyter_core/tests/dotipython/profile_default/ipython_kernel_config.py",
+    "Lib/site-packages/jupyter_core/tests/dotipython/profile_default/ipython_nbconvert_config.py",
+    "Lib/site-packages/jupyter_core/tests/dotipython/profile_default/ipython_notebook_config.py",
+    "Lib/site-packages/jupyter_core/tests/dotipython/profile_default/static/custom/custom.css",
+    "Lib/site-packages/jupyter_core/tests/dotipython/profile_default/static/custom/custom.js",
+    "Lib/site-packages/jupyter_core/tests/dotipython_empty/profile_default/__pycache__/ipython_config.cpython-36.pyc",
+    "Lib/site-packages/jupyter_core/tests/dotipython_empty/profile_default/__pycache__/ipython_console_config.cpython-36.pyc",
+    "Lib/site-packages/jupyter_core/tests/dotipython_empty/profile_default/__pycache__/ipython_kernel_config.cpython-36.pyc",
+    "Lib/site-packages/jupyter_core/tests/dotipython_empty/profile_default/__pycache__/ipython_nbconvert_config.cpython-36.pyc",
+    "Lib/site-packages/jupyter_core/tests/dotipython_empty/profile_default/__pycache__/ipython_notebook_config.cpython-36.pyc",
+    "Lib/site-packages/jupyter_core/tests/dotipython_empty/profile_default/ipython_config.py",
+    "Lib/site-packages/jupyter_core/tests/dotipython_empty/profile_default/ipython_console_config.py",
+    "Lib/site-packages/jupyter_core/tests/dotipython_empty/profile_default/ipython_kernel_config.py",
+    "Lib/site-packages/jupyter_core/tests/dotipython_empty/profile_default/ipython_nbconvert_config.py",
+    "Lib/site-packages/jupyter_core/tests/dotipython_empty/profile_default/ipython_notebook_config.py",
+    "Lib/site-packages/jupyter_core/tests/dotipython_empty/profile_default/static/custom/custom.css",
+    "Lib/site-packages/jupyter_core/tests/dotipython_empty/profile_default/static/custom/custom.js",
+    "Lib/site-packages/jupyter_core/tests/mocking.py",
+    "Lib/site-packages/jupyter_core/tests/test_application.py",
+    "Lib/site-packages/jupyter_core/tests/test_command.py",
+    "Lib/site-packages/jupyter_core/tests/test_migrate.py",
+    "Lib/site-packages/jupyter_core/tests/test_paths.py",
+    "Lib/site-packages/jupyter_core/troubleshoot.py",
+    "Lib/site-packages/jupyter_core/utils/__init__.py",
+    "Lib/site-packages/jupyter_core/utils/__pycache__/__init__.cpython-36.pyc",
+    "Lib/site-packages/jupyter_core/utils/__pycache__/shutil_which.cpython-36.pyc",
+    "Lib/site-packages/jupyter_core/utils/shutil_which.py",
+    "Lib/site-packages/jupyter_core/version.py",
+    "Scripts/jupyter-migrate-script.py",
+    "Scripts/jupyter-migrate.exe",
+    "Scripts/jupyter-script.py",
+    "Scripts/jupyter-troubleshoot-script.py",
+    "Scripts/jupyter-troubleshoot.exe",
+    "Scripts/jupyter.exe"
+  ],
+  "fn": "jupyter_core-4.4.0-py36_0.tar.bz2",
+  "license": "BSD 3-clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "C:\\Users\\tedal\\Anaconda3\\pkgs\\jupyter_core-4.4.0-py36_0",
+    "type": 1
+  },
+  "md5": "9f3d997fc6296b8860acc54ffbb141d0",
+  "name": "jupyter_core",
+  "package_tarball_full_path": "C:\\Users\\tedal\\Anaconda3\\pkgs\\jupyter_core-4.4.0-py36_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/__pycache__/jupyter.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "fc7be03571e61251b8441ba775381db652d30ce2ca304db0e09c6469250eff8a",
+        "sha256_in_prefix": "fc7be03571e61251b8441ba775381db652d30ce2ca304db0e09c6469250eff8a",
+        "size_in_bytes": 246
+      },
+      {
+        "_path": "Lib/site-packages/jupyter.py",
+        "path_type": "hardlink",
+        "sha256": "29ca171ae39c66bfeef972de8aec9ca1586553865de8aaa0b7b68d860360988c",
+        "sha256_in_prefix": "29ca171ae39c66bfeef972de8aec9ca1586553865de8aaa0b7b68d860360988c",
+        "size_in_bytes": 118
+      },
+      {
+        "_path": "Lib/site-packages/jupyter_core-4.4.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+        "sha256_in_prefix": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+        "size_in_bytes": 4
+      },
+      {
+        "_path": "Lib/site-packages/jupyter_core-4.4.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "d6631cc51557c3d63da875d058567896bdcf228fe985b6698e8a85814adb0f3d",
+        "sha256_in_prefix": "d6631cc51557c3d63da875d058567896bdcf228fe985b6698e8a85814adb0f3d",
+        "size_in_bytes": 840
+      },
+      {
+        "_path": "Lib/site-packages/jupyter_core-4.4.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "f52bc22d6a2f088df21d9d40fccb12dabd37d32835dd08e8c4e1791af97724a7",
+        "sha256_in_prefix": "f52bc22d6a2f088df21d9d40fccb12dabd37d32835dd08e8c4e1791af97724a7",
+        "size_in_bytes": 6119
+      },
+      {
+        "_path": "Lib/site-packages/jupyter_core-4.4.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "086e75e8c7b54c4c90aa440ca90a670da76b5a2eee8cf93cf29a1202edce9624",
+        "sha256_in_prefix": "086e75e8c7b54c4c90aa440ca90a670da76b5a2eee8cf93cf29a1202edce9624",
+        "size_in_bytes": 116
+      },
+      {
+        "_path": "Lib/site-packages/jupyter_core-4.4.0.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "96053b338d4c2ce0f702ef5bc91b797a68e05368820bb7c69c12fd72cee0a8c6",
+        "sha256_in_prefix": "96053b338d4c2ce0f702ef5bc91b797a68e05368820bb7c69c12fd72cee0a8c6",
+        "size_in_bytes": 153
+      },
+      {
+        "_path": "Lib/site-packages/jupyter_core-4.4.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "752c340525c91554272672bb9403d64cebd81bdd973bb54e35f33e05e70f4300",
+        "sha256_in_prefix": "752c340525c91554272672bb9403d64cebd81bdd973bb54e35f33e05e70f4300",
+        "size_in_bytes": 21
+      },
+      {
+        "_path": "Lib/site-packages/jupyter_core/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "6f04fc9d334f561692ae814289ec603385028d6f636dc8ac67408d53ac7033b3",
+        "sha256_in_prefix": "6f04fc9d334f561692ae814289ec603385028d6f636dc8ac67408d53ac7033b3",
+        "size_in_bytes": 47
+      },
+      {
+        "_path": "Lib/site-packages/jupyter_core/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "385879dfb0a2532b8f8c5a02a5e0d7f1f4ecd171e1e0d55259876d62ba589ecc",
+        "sha256_in_prefix": "385879dfb0a2532b8f8c5a02a5e0d7f1f4ecd171e1e0d55259876d62ba589ecc",
+        "size_in_bytes": 71
+      },
+      {
+        "_path": "Lib/site-packages/jupyter_core/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "4f783566f30057bc8c3e3578daab6ce45434dc8f27c1e2943f788ec5075bcdf2",
+        "sha256_in_prefix": "4f783566f30057bc8c3e3578daab6ce45434dc8f27c1e2943f788ec5075bcdf2",
+        "size_in_bytes": 191
+      },
+      {
+        "_path": "Lib/site-packages/jupyter_core/__pycache__/__main__.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "40ecc4b3f8abdf10ed29c50943f61191c4a424974c4c2d9e33df487262dfc1d8",
+        "sha256_in_prefix": "40ecc4b3f8abdf10ed29c50943f61191c4a424974c4c2d9e33df487262dfc1d8",
+        "size_in_bytes": 217
+      },
+      {
+        "_path": "Lib/site-packages/jupyter_core/__pycache__/application.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "e12197c2456e68923abe77e520e64cc07fefaf82eeed328dad72697d5cfccfb3",
+        "sha256_in_prefix": "e12197c2456e68923abe77e520e64cc07fefaf82eeed328dad72697d5cfccfb3",
+        "size_in_bytes": 7502
+      },
+      {
+        "_path": "Lib/site-packages/jupyter_core/__pycache__/command.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "5194ab7ffd524cebe43708afc3350f2cecfc5754b2126f67b84c267bbb1ab018",
+        "sha256_in_prefix": "5194ab7ffd524cebe43708afc3350f2cecfc5754b2126f67b84c267bbb1ab018",
+        "size_in_bytes": 5259
+      },
+      {
+        "_path": "Lib/site-packages/jupyter_core/__pycache__/migrate.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "e7c24f2894bb3bf93cfe8a147e1582ac72b5d670bdc4e53ff771b84ffe54dae4",
+        "sha256_in_prefix": "e7c24f2894bb3bf93cfe8a147e1582ac72b5d670bdc4e53ff771b84ffe54dae4",
+        "size_in_bytes": 6547
+      },
+      {
+        "_path": "Lib/site-packages/jupyter_core/__pycache__/paths.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "e3eea5dee9534b7ee18f01f10147e00e09adba6e04a351b85313bbf998d249a9",
+        "sha256_in_prefix": "e3eea5dee9534b7ee18f01f10147e00e09adba6e04a351b85313bbf998d249a9",
+        "size_in_bytes": 4234
+      },
+      {
+        "_path": "Lib/site-packages/jupyter_core/__pycache__/troubleshoot.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "a69e40c546eacd88155cad2703e2eeed67e59df98daf4f80ebc55561031b9490",
+        "sha256_in_prefix": "a69e40c546eacd88155cad2703e2eeed67e59df98daf4f80ebc55561031b9490",
+        "size_in_bytes": 2204
+      },
+      {
+        "_path": "Lib/site-packages/jupyter_core/__pycache__/version.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "b282b3a7a56221bd9b5b9969bff1e914e2315362a2101ba040e9ab28e0b370fc",
+        "sha256_in_prefix": "b282b3a7a56221bd9b5b9969bff1e914e2315362a2101ba040e9ab28e0b370fc",
+        "size_in_bytes": 216
+      },
+      {
+        "_path": "Lib/site-packages/jupyter_core/application.py",
+        "path_type": "hardlink",
+        "sha256": "79dc0938c94249da624f7bea2d00df47063ed2f077ca1555e396d89327dc1647",
+        "sha256_in_prefix": "79dc0938c94249da624f7bea2d00df47063ed2f077ca1555e396d89327dc1647",
+        "size_in_bytes": 8167
+      },
+      {
+        "_path": "Lib/site-packages/jupyter_core/command.py",
+        "path_type": "hardlink",
+        "sha256": "80cf1733341dbde07845ec765359ea39e9c670156ff7a711b5a932a517d18cbf",
+        "sha256_in_prefix": "80cf1733341dbde07845ec765359ea39e9c670156ff7a711b5a932a517d18cbf",
+        "size_in_bytes": 6527
+      },
+      {
+        "_path": "Lib/site-packages/jupyter_core/migrate.py",
+        "path_type": "hardlink",
+        "sha256": "1fcaf2eeb50a2d456541c8eb05ebb07b3b6136873a930a476f9c917afd434961",
+        "sha256_in_prefix": "1fcaf2eeb50a2d456541c8eb05ebb07b3b6136873a930a476f9c917afd434961",
+        "size_in_bytes": 8447
+      },
+      {
+        "_path": "Lib/site-packages/jupyter_core/paths.py",
+        "path_type": "hardlink",
+        "sha256": "c142ad12db630813c4bea5231cdc512042fc9a584b080d9fbcecb4718ad21d4a",
+        "sha256_in_prefix": "c142ad12db630813c4bea5231cdc512042fc9a584b080d9fbcecb4718ad21d4a",
+        "size_in_bytes": 5264
+      },
+      {
+        "_path": "Lib/site-packages/jupyter_core/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/jupyter_core/tests/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "031cc0ac2b61b84ad9910a7c1df819e9a5ef8a987b1e002a67e8fb3bc81f5a1e",
+        "sha256_in_prefix": "031cc0ac2b61b84ad9910a7c1df819e9a5ef8a987b1e002a67e8fb3bc81f5a1e",
+        "size_in_bytes": 131
+      },
+      {
+        "_path": "Lib/site-packages/jupyter_core/tests/__pycache__/mocking.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "4e5bfbdb77a1dd6f16292ca325c3a5dc427e9643f2aa449836895241a61d50f9",
+        "sha256_in_prefix": "4e5bfbdb77a1dd6f16292ca325c3a5dc427e9643f2aa449836895241a61d50f9",
+        "size_in_bytes": 1102
+      },
+      {
+        "_path": "Lib/site-packages/jupyter_core/tests/__pycache__/test_application.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "981b070dbc6e37f62ef79a87c00b67aa15b099aa6299767346e6e3c699040e81",
+        "sha256_in_prefix": "981b070dbc6e37f62ef79a87c00b67aa15b099aa6299767346e6e3c699040e81",
+        "size_in_bytes": 3016
+      },
+      {
+        "_path": "Lib/site-packages/jupyter_core/tests/__pycache__/test_command.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "dd1c0b988fc1dc38b7722164e4d35af2cffaf9a125a8e00dcd65f0919511e57a",
+        "sha256_in_prefix": "dd1c0b988fc1dc38b7722164e4d35af2cffaf9a125a8e00dcd65f0919511e57a",
+        "size_in_bytes": 5184
+      },
+      {
+        "_path": "Lib/site-packages/jupyter_core/tests/__pycache__/test_migrate.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "087f2b24533036d9a88fc0e071af5e5cc6b5a7bef749abc922a13adcb906f34e",
+        "sha256_in_prefix": "087f2b24533036d9a88fc0e071af5e5cc6b5a7bef749abc922a13adcb906f34e",
+        "size_in_bytes": 5971
+      },
+      {
+        "_path": "Lib/site-packages/jupyter_core/tests/__pycache__/test_paths.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "5c9bb722b78cd2fbe0f852ffd2b8b7ca89bee471903e9a1083a0d97cc6f557c9",
+        "sha256_in_prefix": "5c9bb722b78cd2fbe0f852ffd2b8b7ca89bee471903e9a1083a0d97cc6f557c9",
+        "size_in_bytes": 5244
+      },
+      {
+        "_path": "Lib/site-packages/jupyter_core/tests/dotipython/nbextensions/myext.js",
+        "path_type": "hardlink",
+        "sha256": "9aaf7d4297ccc029be981919b42753ccbd66da1fa46e747861c2ad9a70a5167d",
+        "sha256_in_prefix": "9aaf7d4297ccc029be981919b42753ccbd66da1fa46e747861c2ad9a70a5167d",
+        "size_in_bytes": 11
+      },
+      {
+        "_path": "Lib/site-packages/jupyter_core/tests/dotipython/profile_default/__pycache__/ipython_config.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "3a5fab6c6ea9e15def0a3f62fb3a80261c720a2aa9795f88417bdc4938a25a53",
+        "sha256_in_prefix": "3a5fab6c6ea9e15def0a3f62fb3a80261c720a2aa9795f88417bdc4938a25a53",
+        "size_in_bytes": 182
+      },
+      {
+        "_path": "Lib/site-packages/jupyter_core/tests/dotipython/profile_default/__pycache__/ipython_console_config.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "3e4a3497d025d3f851dad30cf836971139faeeb2cf8442c94f24a76639ed59e8",
+        "sha256_in_prefix": "3e4a3497d025d3f851dad30cf836971139faeeb2cf8442c94f24a76639ed59e8",
+        "size_in_bytes": 190
+      },
+      {
+        "_path": "Lib/site-packages/jupyter_core/tests/dotipython/profile_default/__pycache__/ipython_kernel_config.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "2c8cbb195365af6771e377ab77546e50476ede8a4d61bcf163a84023294bae1b",
+        "sha256_in_prefix": "2c8cbb195365af6771e377ab77546e50476ede8a4d61bcf163a84023294bae1b",
+        "size_in_bytes": 189
+      },
+      {
+        "_path": "Lib/site-packages/jupyter_core/tests/dotipython/profile_default/__pycache__/ipython_nbconvert_config.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "0694265d4b0f307897e034f42d5f2adb1c77faba9febe8bac02ae1acd333737f",
+        "sha256_in_prefix": "0694265d4b0f307897e034f42d5f2adb1c77faba9febe8bac02ae1acd333737f",
+        "size_in_bytes": 213
+      },
+      {
+        "_path": "Lib/site-packages/jupyter_core/tests/dotipython/profile_default/__pycache__/ipython_notebook_config.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "d59ebd7c9b35018e17f53ccef520201b8b5211f3d7ae3bc8457ef020693b80bf",
+        "sha256_in_prefix": "d59ebd7c9b35018e17f53ccef520201b8b5211f3d7ae3bc8457ef020693b80bf",
+        "size_in_bytes": 209
+      },
+      {
+        "_path": "Lib/site-packages/jupyter_core/tests/dotipython/profile_default/ipython_config.py",
+        "path_type": "hardlink",
+        "sha256": "c823797a5b9b26d568b54deba9d2bbb238cc08c873332a0c0eeef29d1d66fd15",
+        "sha256_in_prefix": "c823797a5b9b26d568b54deba9d2bbb238cc08c873332a0c0eeef29d1d66fd15",
+        "size_in_bytes": 20611
+      },
+      {
+        "_path": "Lib/site-packages/jupyter_core/tests/dotipython/profile_default/ipython_console_config.py",
+        "path_type": "hardlink",
+        "sha256": "707be74b8defd2bbcb071018bf45697b7fe6cfc60355f60bb4564ee692b6ea73",
+        "sha256_in_prefix": "707be74b8defd2bbcb071018bf45697b7fe6cfc60355f60bb4564ee692b6ea73",
+        "size_in_bytes": 21691
+      },
+      {
+        "_path": "Lib/site-packages/jupyter_core/tests/dotipython/profile_default/ipython_kernel_config.py",
+        "path_type": "hardlink",
+        "sha256": "e9096f3083cfc724f07e0e996c75fe96ebac3cfff9f0bf36f9333653867b3b0e",
+        "sha256_in_prefix": "e9096f3083cfc724f07e0e996c75fe96ebac3cfff9f0bf36f9333653867b3b0e",
+        "size_in_bytes": 15358
+      },
+      {
+        "_path": "Lib/site-packages/jupyter_core/tests/dotipython/profile_default/ipython_nbconvert_config.py",
+        "path_type": "hardlink",
+        "sha256": "1a06db1af6e44860cf30ab16ad982cbcab3a833da406a088ae099e5d601ebfd2",
+        "sha256_in_prefix": "1a06db1af6e44860cf30ab16ad982cbcab3a833da406a088ae099e5d601ebfd2",
+        "size_in_bytes": 36
+      },
+      {
+        "_path": "Lib/site-packages/jupyter_core/tests/dotipython/profile_default/ipython_notebook_config.py",
+        "path_type": "hardlink",
+        "sha256": "f3eb46d936e0a2255d86faebfd171ecd6f5b44088037dd7ecd25d211a348758a",
+        "sha256_in_prefix": "f3eb46d936e0a2255d86faebfd171ecd6f5b44088037dd7ecd25d211a348758a",
+        "size_in_bytes": 35
+      },
+      {
+        "_path": "Lib/site-packages/jupyter_core/tests/dotipython/profile_default/static/custom/custom.css",
+        "path_type": "hardlink",
+        "sha256": "9e2eb8c875c5f2511e1e3a14ae9482ed0883e5a0438fd9b0dc33061a0794cf72",
+        "sha256_in_prefix": "9e2eb8c875c5f2511e1e3a14ae9482ed0883e5a0438fd9b0dc33061a0794cf72",
+        "size_in_bytes": 144
+      },
+      {
+        "_path": "Lib/site-packages/jupyter_core/tests/dotipython/profile_default/static/custom/custom.js",
+        "path_type": "hardlink",
+        "sha256": "42af304344aa2149039bed19d994bd2032beae89fc52a900e326b0aab1521fde",
+        "sha256_in_prefix": "42af304344aa2149039bed19d994bd2032beae89fc52a900e326b0aab1521fde",
+        "size_in_bytes": 2803
+      },
+      {
+        "_path": "Lib/site-packages/jupyter_core/tests/dotipython_empty/profile_default/__pycache__/ipython_config.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "85c8a29a52ba6a7f4557e7de70c7d194690de2f7b9557417fc759b747b78395f",
+        "sha256_in_prefix": "85c8a29a52ba6a7f4557e7de70c7d194690de2f7b9557417fc759b747b78395f",
+        "size_in_bytes": 188
+      },
+      {
+        "_path": "Lib/site-packages/jupyter_core/tests/dotipython_empty/profile_default/__pycache__/ipython_console_config.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "67e454a060485f565d731657e50626d51c0aa56a823f849003d4b52733b45543",
+        "sha256_in_prefix": "67e454a060485f565d731657e50626d51c0aa56a823f849003d4b52733b45543",
+        "size_in_bytes": 196
+      },
+      {
+        "_path": "Lib/site-packages/jupyter_core/tests/dotipython_empty/profile_default/__pycache__/ipython_kernel_config.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "f0190963ce0aff2a999a4146f20dcb5e053189f5e4d3a66c61c043caf4d4f85f",
+        "sha256_in_prefix": "f0190963ce0aff2a999a4146f20dcb5e053189f5e4d3a66c61c043caf4d4f85f",
+        "size_in_bytes": 195
+      },
+      {
+        "_path": "Lib/site-packages/jupyter_core/tests/dotipython_empty/profile_default/__pycache__/ipython_nbconvert_config.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "261cc8737369ab7e2be3a6220a44e5ee97efca942f978d5443831c3379774a25",
+        "sha256_in_prefix": "261cc8737369ab7e2be3a6220a44e5ee97efca942f978d5443831c3379774a25",
+        "size_in_bytes": 198
+      },
+      {
+        "_path": "Lib/site-packages/jupyter_core/tests/dotipython_empty/profile_default/__pycache__/ipython_notebook_config.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "b95f8d4205fdc5f7f7f2d0ab535ace36f5de756ec8d76bbeaf44de8a9e19e752",
+        "sha256_in_prefix": "b95f8d4205fdc5f7f7f2d0ab535ace36f5de756ec8d76bbeaf44de8a9e19e752",
+        "size_in_bytes": 197
+      },
+      {
+        "_path": "Lib/site-packages/jupyter_core/tests/dotipython_empty/profile_default/ipython_config.py",
+        "path_type": "hardlink",
+        "sha256": "c823797a5b9b26d568b54deba9d2bbb238cc08c873332a0c0eeef29d1d66fd15",
+        "sha256_in_prefix": "c823797a5b9b26d568b54deba9d2bbb238cc08c873332a0c0eeef29d1d66fd15",
+        "size_in_bytes": 20611
+      },
+      {
+        "_path": "Lib/site-packages/jupyter_core/tests/dotipython_empty/profile_default/ipython_console_config.py",
+        "path_type": "hardlink",
+        "sha256": "707be74b8defd2bbcb071018bf45697b7fe6cfc60355f60bb4564ee692b6ea73",
+        "sha256_in_prefix": "707be74b8defd2bbcb071018bf45697b7fe6cfc60355f60bb4564ee692b6ea73",
+        "size_in_bytes": 21691
+      },
+      {
+        "_path": "Lib/site-packages/jupyter_core/tests/dotipython_empty/profile_default/ipython_kernel_config.py",
+        "path_type": "hardlink",
+        "sha256": "e9096f3083cfc724f07e0e996c75fe96ebac3cfff9f0bf36f9333653867b3b0e",
+        "sha256_in_prefix": "e9096f3083cfc724f07e0e996c75fe96ebac3cfff9f0bf36f9333653867b3b0e",
+        "size_in_bytes": 15358
+      },
+      {
+        "_path": "Lib/site-packages/jupyter_core/tests/dotipython_empty/profile_default/ipython_nbconvert_config.py",
+        "path_type": "hardlink",
+        "sha256": "861c9c46532308b005c7180af94366bcfdb836e0aacc843c5d9b7bf86b484565",
+        "sha256_in_prefix": "861c9c46532308b005c7180af94366bcfdb836e0aacc843c5d9b7bf86b484565",
+        "size_in_bytes": 38772
+      },
+      {
+        "_path": "Lib/site-packages/jupyter_core/tests/dotipython_empty/profile_default/ipython_notebook_config.py",
+        "path_type": "hardlink",
+        "sha256": "f018b975a2e03b0e2bf8c3259f218825d791cf6e316ddbffebdf95479864a447",
+        "sha256_in_prefix": "f018b975a2e03b0e2bf8c3259f218825d791cf6e316ddbffebdf95479864a447",
+        "size_in_bytes": 19986
+      },
+      {
+        "_path": "Lib/site-packages/jupyter_core/tests/dotipython_empty/profile_default/static/custom/custom.css",
+        "path_type": "hardlink",
+        "sha256": "9e2eb8c875c5f2511e1e3a14ae9482ed0883e5a0438fd9b0dc33061a0794cf72",
+        "sha256_in_prefix": "9e2eb8c875c5f2511e1e3a14ae9482ed0883e5a0438fd9b0dc33061a0794cf72",
+        "size_in_bytes": 144
+      },
+      {
+        "_path": "Lib/site-packages/jupyter_core/tests/dotipython_empty/profile_default/static/custom/custom.js",
+        "path_type": "hardlink",
+        "sha256": "42af304344aa2149039bed19d994bd2032beae89fc52a900e326b0aab1521fde",
+        "sha256_in_prefix": "42af304344aa2149039bed19d994bd2032beae89fc52a900e326b0aab1521fde",
+        "size_in_bytes": 2803
+      },
+      {
+        "_path": "Lib/site-packages/jupyter_core/tests/mocking.py",
+        "path_type": "hardlink",
+        "sha256": "1e05fc74a04ab60b6e2c337474b793511e0c78255caa933f27d8bfff5c0e1674",
+        "sha256_in_prefix": "1e05fc74a04ab60b6e2c337474b793511e0c78255caa933f27d8bfff5c0e1674",
+        "size_in_bytes": 840
+      },
+      {
+        "_path": "Lib/site-packages/jupyter_core/tests/test_application.py",
+        "path_type": "hardlink",
+        "sha256": "f4c5992f0c7a7f63525db8a95b1ddaa862e040fdeeaf09edebf087bed680cd8e",
+        "sha256_in_prefix": "f4c5992f0c7a7f63525db8a95b1ddaa862e040fdeeaf09edebf087bed680cd8e",
+        "size_in_bytes": 2279
+      },
+      {
+        "_path": "Lib/site-packages/jupyter_core/tests/test_command.py",
+        "path_type": "hardlink",
+        "sha256": "22abdfc24e9f29f9300b1695fa646b1b8612f8835151f9c6186b60a9475ad698",
+        "sha256_in_prefix": "22abdfc24e9f29f9300b1695fa646b1b8612f8835151f9c6186b60a9475ad698",
+        "size_in_bytes": 4898
+      },
+      {
+        "_path": "Lib/site-packages/jupyter_core/tests/test_migrate.py",
+        "path_type": "hardlink",
+        "sha256": "b8ec5f7d1bb006c9368494f452f2287cc61bc0f2ac752b481d6a3d3df4c09902",
+        "sha256_in_prefix": "b8ec5f7d1bb006c9368494f452f2287cc61bc0f2ac752b481d6a3d3df4c09902",
+        "size_in_bytes": 5797
+      },
+      {
+        "_path": "Lib/site-packages/jupyter_core/tests/test_paths.py",
+        "path_type": "hardlink",
+        "sha256": "a5f3df3abccfe0cf46cd8469e1d59f4a9bbc43c1f0eba4005e027ec6645cfc68",
+        "sha256_in_prefix": "a5f3df3abccfe0cf46cd8469e1d59f4a9bbc43c1f0eba4005e027ec6645cfc68",
+        "size_in_bytes": 4991
+      },
+      {
+        "_path": "Lib/site-packages/jupyter_core/troubleshoot.py",
+        "path_type": "hardlink",
+        "sha256": "bd324a523141170c75374c0b31f4a5a538bd2547f38d5ca372a77d48a5b507b1",
+        "sha256_in_prefix": "bd324a523141170c75374c0b31f4a5a538bd2547f38d5ca372a77d48a5b507b1",
+        "size_in_bytes": 2725
+      },
+      {
+        "_path": "Lib/site-packages/jupyter_core/utils/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "2cfa2a2464f5f9cab24a45ed07062f195d372bfa3837916f531384bbd42c85f3",
+        "sha256_in_prefix": "2cfa2a2464f5f9cab24a45ed07062f195d372bfa3837916f531384bbd42c85f3",
+        "size_in_bytes": 521
+      },
+      {
+        "_path": "Lib/site-packages/jupyter_core/utils/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "8df84032d027b5059caeaecf622e614372c2e0a42390ab2f291e8f0c72e7577d",
+        "sha256_in_prefix": "8df84032d027b5059caeaecf622e614372c2e0a42390ab2f291e8f0c72e7577d",
+        "size_in_bytes": 721
+      },
+      {
+        "_path": "Lib/site-packages/jupyter_core/utils/__pycache__/shutil_which.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "d9575d09c36f6fe4d8fdfd2341ab971f9f9b223f8bb8c15e7d0b13d5b470af5a",
+        "sha256_in_prefix": "d9575d09c36f6fe4d8fdfd2341ab971f9f9b223f8bb8c15e7d0b13d5b470af5a",
+        "size_in_bytes": 1631
+      },
+      {
+        "_path": "Lib/site-packages/jupyter_core/utils/shutil_which.py",
+        "path_type": "hardlink",
+        "sha256": "076e270c05e8b7570d995beab2069f2f878680e504eaf0cc7ecb7ca5d824b1a9",
+        "sha256_in_prefix": "076e270c05e8b7570d995beab2069f2f878680e504eaf0cc7ecb7ca5d824b1a9",
+        "size_in_bytes": 2431
+      },
+      {
+        "_path": "Lib/site-packages/jupyter_core/version.py",
+        "path_type": "hardlink",
+        "sha256": "41478d66b7670b7ee968464a7e947dc34f440b9a777c61dc3e02f4510914ae00",
+        "sha256_in_prefix": "41478d66b7670b7ee968464a7e947dc34f440b9a777c61dc3e02f4510914ae00",
+        "size_in_bytes": 175
+      },
+      {
+        "_path": "Scripts/jupyter-migrate-script.py",
+        "path_type": "hardlink",
+        "sha256": "68fcf27e171ca4f1ce206eacf0ed702b6f6e38c033ec51c7f4f47b273d73635d",
+        "sha256_in_prefix": "68fcf27e171ca4f1ce206eacf0ed702b6f6e38c033ec51c7f4f47b273d73635d",
+        "size_in_bytes": 214
+      },
+      {
+        "_path": "Scripts/jupyter-migrate.exe",
+        "path_type": "hardlink",
+        "sha256": "993203a406e04936a07829b1f482fd27d739b640482e213f4c49ea1ee78a5fcf",
+        "sha256_in_prefix": "993203a406e04936a07829b1f482fd27d739b640482e213f4c49ea1ee78a5fcf",
+        "size_in_bytes": 40960
+      },
+      {
+        "_path": "Scripts/jupyter-script.py",
+        "path_type": "hardlink",
+        "sha256": "751b00de9329e963d1d96207cc792e2952d79fc7dffc8be55dd681732131e371",
+        "sha256_in_prefix": "751b00de9329e963d1d96207cc792e2952d79fc7dffc8be55dd681732131e371",
+        "size_in_bytes": 214
+      },
+      {
+        "_path": "Scripts/jupyter-troubleshoot-script.py",
+        "path_type": "hardlink",
+        "sha256": "43b1325d1e8c80d87d8e5f8060866a08c26f93e0603a425332527bec9d8e5787",
+        "sha256_in_prefix": "43b1325d1e8c80d87d8e5f8060866a08c26f93e0603a425332527bec9d8e5787",
+        "size_in_bytes": 219
+      },
+      {
+        "_path": "Scripts/jupyter-troubleshoot.exe",
+        "path_type": "hardlink",
+        "sha256": "993203a406e04936a07829b1f482fd27d739b640482e213f4c49ea1ee78a5fcf",
+        "sha256_in_prefix": "993203a406e04936a07829b1f482fd27d739b640482e213f4c49ea1ee78a5fcf",
+        "size_in_bytes": 40960
+      },
+      {
+        "_path": "Scripts/jupyter.exe",
+        "path_type": "hardlink",
+        "sha256": "993203a406e04936a07829b1f482fd27d739b640482e213f4c49ea1ee78a5fcf",
+        "sha256_in_prefix": "993203a406e04936a07829b1f482fd27d739b640482e213f4c49ea1ee78a5fcf",
+        "size_in_bytes": 40960
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "win32",
+  "requested_spec": "None",
+  "size": 87261,
+  "subdir": "win-64",
+  "timestamp": 1531151515493,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/jupyter_core-4.4.0-py36_0.tar.bz2",
+  "version": "4.4.0"
+}

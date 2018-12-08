@@ -1,0 +1,108 @@
+{
+  "arch": "x86_64",
+  "build": "py36_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.6,<3.7.0a0"
+  ],
+  "extracted_package_dir": "C:\\Users\\tedal\\Anaconda3\\pkgs\\decorator-4.3.0-py36_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/__pycache__/decorator.cpython-36.pyc",
+    "Lib/site-packages/decorator-4.3.0-py3.6.egg-info/PKG-INFO",
+    "Lib/site-packages/decorator-4.3.0-py3.6.egg-info/SOURCES.txt",
+    "Lib/site-packages/decorator-4.3.0-py3.6.egg-info/dependency_links.txt",
+    "Lib/site-packages/decorator-4.3.0-py3.6.egg-info/installed-files.txt",
+    "Lib/site-packages/decorator-4.3.0-py3.6.egg-info/not-zip-safe",
+    "Lib/site-packages/decorator-4.3.0-py3.6.egg-info/pbr.json",
+    "Lib/site-packages/decorator-4.3.0-py3.6.egg-info/top_level.txt",
+    "Lib/site-packages/decorator.py"
+  ],
+  "fn": "decorator-4.3.0-py36_0.tar.bz2",
+  "license": "BSD 3-Clause",
+  "link": {
+    "source": "C:\\Users\\tedal\\Anaconda3\\pkgs\\decorator-4.3.0-py36_0",
+    "type": 1
+  },
+  "md5": "8b778fbdf44210fbce2147c04306e92d",
+  "name": "decorator",
+  "package_tarball_full_path": "C:\\Users\\tedal\\Anaconda3\\pkgs\\decorator-4.3.0-py36_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/__pycache__/decorator.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "17670e0fc8ed6e598a804bdbd740a661b538edcb431e23dfa251848b6279772c",
+        "sha256_in_prefix": "17670e0fc8ed6e598a804bdbd740a661b538edcb431e23dfa251848b6279772c",
+        "size_in_bytes": 12205
+      },
+      {
+        "_path": "Lib/site-packages/decorator-4.3.0-py3.6.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "b22b31887656f4a641724743a414d3055fb0d84a50d47501d969e51020b98b1b",
+        "sha256_in_prefix": "b22b31887656f4a641724743a414d3055fb0d84a50d47501d969e51020b98b1b",
+        "size_in_bytes": 3275
+      },
+      {
+        "_path": "Lib/site-packages/decorator-4.3.0-py3.6.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "b6a989b9c2239d759f79dc238c3c97827af4808d4a41ddf87c3d35055c9bbbc7",
+        "sha256_in_prefix": "b6a989b9c2239d759f79dc238c3c97827af4808d4a41ddf87c3d35055c9bbbc7",
+        "size_in_bytes": 394
+      },
+      {
+        "_path": "Lib/site-packages/decorator-4.3.0-py3.6.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "Lib/site-packages/decorator-4.3.0-py3.6.egg-info/installed-files.txt",
+        "path_type": "hardlink",
+        "sha256": "981fdb7a83b7c397a74dd60cae9ef6fa2e37504aee7db64a100c16f7889d1ac0",
+        "sha256_in_prefix": "981fdb7a83b7c397a74dd60cae9ef6fa2e37504aee7db64a100c16f7889d1ac0",
+        "size_in_bytes": 142
+      },
+      {
+        "_path": "Lib/site-packages/decorator-4.3.0-py3.6.egg-info/not-zip-safe",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "Lib/site-packages/decorator-4.3.0-py3.6.egg-info/pbr.json",
+        "path_type": "hardlink",
+        "sha256": "00bf38a14516407c2477c3823e12d1a363498d4e4c0dd99732a447bfea68b2ab",
+        "sha256_in_prefix": "00bf38a14516407c2477c3823e12d1a363498d4e4c0dd99732a447bfea68b2ab",
+        "size_in_bytes": 47
+      },
+      {
+        "_path": "Lib/site-packages/decorator-4.3.0-py3.6.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "2a7e9e423a3cddcb56c5757204c398b74fd8a634630739ca615b8dcae0bf0d22",
+        "sha256_in_prefix": "2a7e9e423a3cddcb56c5757204c398b74fd8a634630739ca615b8dcae0bf0d22",
+        "size_in_bytes": 10
+      },
+      {
+        "_path": "Lib/site-packages/decorator.py",
+        "path_type": "hardlink",
+        "sha256": "74219fadf81a4c993d58f80b97defd3fe144f39be92615a6a363c5ed459212f8",
+        "sha256_in_prefix": "74219fadf81a4c993d58f80b97defd3fe144f39be92615a6a363c5ed459212f8",
+        "size_in_bytes": 16298
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "win32",
+  "requested_spec": "None",
+  "size": 16364,
+  "subdir": "win-64",
+  "timestamp": 1523903948994,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/decorator-4.3.0-py36_0.tar.bz2",
+  "version": "4.3.0"
+}

@@ -1,0 +1,102 @@
+{
+  "arch": "x86_64",
+  "build": "py36_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.6,<3.7.0a0",
+    "win_inet_pton"
+  ],
+  "extracted_package_dir": "C:\\Users\\tedal\\Anaconda3\\pkgs\\pysocks-1.6.8-py36_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/PySocks-1.6.8-py3.6.egg-info/PKG-INFO",
+    "Lib/site-packages/PySocks-1.6.8-py3.6.egg-info/SOURCES.txt",
+    "Lib/site-packages/PySocks-1.6.8-py3.6.egg-info/dependency_links.txt",
+    "Lib/site-packages/PySocks-1.6.8-py3.6.egg-info/top_level.txt",
+    "Lib/site-packages/__pycache__/socks.cpython-36.pyc",
+    "Lib/site-packages/__pycache__/sockshandler.cpython-36.pyc",
+    "Lib/site-packages/socks.py",
+    "Lib/site-packages/sockshandler.py"
+  ],
+  "fn": "pysocks-1.6.8-py36_0.tar.bz2",
+  "license": "BSD 3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "C:\\Users\\tedal\\Anaconda3\\pkgs\\pysocks-1.6.8-py36_0",
+    "type": 1
+  },
+  "md5": "1d4d4d775522356933daeb0a9fa85ebc",
+  "name": "pysocks",
+  "package_tarball_full_path": "C:\\Users\\tedal\\Anaconda3\\pkgs\\pysocks-1.6.8-py36_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/PySocks-1.6.8-py3.6.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "698f27d89cf8f73abd4465466e647a3f534db3c575da76b495f6fb93a9a33432",
+        "sha256_in_prefix": "698f27d89cf8f73abd4465466e647a3f534db3c575da76b495f6fb93a9a33432",
+        "size_in_bytes": 519
+      },
+      {
+        "_path": "Lib/site-packages/PySocks-1.6.8-py3.6.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "2700fd398d87ef9b4a3c7f9bd281c12975e7ffb7199ca96417ced7cb08779eba",
+        "sha256_in_prefix": "2700fd398d87ef9b4a3c7f9bd281c12975e7ffb7199ca96417ced7cb08779eba",
+        "size_in_bytes": 288
+      },
+      {
+        "_path": "Lib/site-packages/PySocks-1.6.8-py3.6.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "Lib/site-packages/PySocks-1.6.8-py3.6.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "4ca48e21f0850682bd118f050586d8a82dcf59ddfef86d79a61f67f3e4073c39",
+        "sha256_in_prefix": "4ca48e21f0850682bd118f050586d8a82dcf59ddfef86d79a61f67f3e4073c39",
+        "size_in_bytes": 19
+      },
+      {
+        "_path": "Lib/site-packages/__pycache__/socks.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "8353d95ea3046f65fc3f8370379f686ad8d0a510b5960b7088926d19afd8a9ca",
+        "sha256_in_prefix": "8353d95ea3046f65fc3f8370379f686ad8d0a510b5960b7088926d19afd8a9ca",
+        "size_in_bytes": 23145
+      },
+      {
+        "_path": "Lib/site-packages/__pycache__/sockshandler.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "02d8935f44686914fe48543717079f74f93a3f457569b544fc43356861eae3d0",
+        "sha256_in_prefix": "02d8935f44686914fe48543717079f74f93a3f457569b544fc43356861eae3d0",
+        "size_in_bytes": 3677
+      },
+      {
+        "_path": "Lib/site-packages/socks.py",
+        "path_type": "hardlink",
+        "sha256": "c2857917ed2fb105f1cfead085cd2fd5302ca20da9c9acf6ecbfb25bca22b15a",
+        "sha256_in_prefix": "c2857917ed2fb105f1cfead085cd2fd5302ca20da9c9acf6ecbfb25bca22b15a",
+        "size_in_bytes": 32281
+      },
+      {
+        "_path": "Lib/site-packages/sockshandler.py",
+        "path_type": "hardlink",
+        "sha256": "10dc1450edefb7ce3fd7244702ad40d78ed32ff4c0b85bb1dadff542f355d95a",
+        "sha256_in_prefix": "10dc1450edefb7ce3fd7244702ad40d78ed32ff4c0b85bb1dadff542f355d95a",
+        "size_in_bytes": 2913
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "win32",
+  "requested_spec": "None",
+  "size": 23096,
+  "subdir": "win-64",
+  "timestamp": 1519749967482,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/pysocks-1.6.8-py36_0.tar.bz2",
+  "version": "1.6.8"
+}

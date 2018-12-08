@@ -1,0 +1,11 @@
+{
+ "argv": [
+  "C:\\Users\\tedal\\OneDrive\\Bureau\\Projet Informatique\\Anaconda\\anaconda-project-master\\envs\\anaconda-project-dev\\python.exe",
+  "-m",
+  "ipykernel_launcher",
+  "-f",
+  "{connection_file}"
+ ],
+ "display_name": "Python 3",
+ "language": "python"
+}

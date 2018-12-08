@@ -1,0 +1,100 @@
+{
+  "arch": "x86_64",
+  "build": "py36_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.6,<3.7.0a0"
+  ],
+  "extracted_package_dir": "C:\\Users\\tedal\\Anaconda3\\pkgs\\pickleshare-0.7.5-py36_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/__pycache__/pickleshare.cpython-36.pyc",
+    "Lib/site-packages/pickleshare-0.7.5-py3.6.egg-info/PKG-INFO",
+    "Lib/site-packages/pickleshare-0.7.5-py3.6.egg-info/SOURCES.txt",
+    "Lib/site-packages/pickleshare-0.7.5-py3.6.egg-info/dependency_links.txt",
+    "Lib/site-packages/pickleshare-0.7.5-py3.6.egg-info/installed-files.txt",
+    "Lib/site-packages/pickleshare-0.7.5-py3.6.egg-info/requires.txt",
+    "Lib/site-packages/pickleshare-0.7.5-py3.6.egg-info/top_level.txt",
+    "Lib/site-packages/pickleshare.py"
+  ],
+  "fn": "pickleshare-0.7.5-py36_0.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "C:\\Users\\tedal\\Anaconda3\\pkgs\\pickleshare-0.7.5-py36_0",
+    "type": 1
+  },
+  "md5": "2fc0be98c99ce72f2102d22b2784beb2",
+  "name": "pickleshare",
+  "package_tarball_full_path": "C:\\Users\\tedal\\Anaconda3\\pkgs\\pickleshare-0.7.5-py36_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/__pycache__/pickleshare.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "011e601804d0fd50c224174ee9ec40bfd581e3407966f5db7391fddfa002a54f",
+        "sha256_in_prefix": "011e601804d0fd50c224174ee9ec40bfd581e3407966f5db7391fddfa002a54f",
+        "size_in_bytes": 10031
+      },
+      {
+        "_path": "Lib/site-packages/pickleshare-0.7.5-py3.6.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "1ce44d1555153070aba9f4f0c02867633d67e7aa14af7aa5af1cf3bc14a0cc56",
+        "sha256_in_prefix": "1ce44d1555153070aba9f4f0c02867633d67e7aa14af7aa5af1cf3bc14a0cc56",
+        "size_in_bytes": 1713
+      },
+      {
+        "_path": "Lib/site-packages/pickleshare-0.7.5-py3.6.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "3f99c41a062c237364e1fee5f7d44f83dfe3f8c2ee61f73541dbcd2296503fb2",
+        "sha256_in_prefix": "3f99c41a062c237364e1fee5f7d44f83dfe3f8c2ee61f73541dbcd2296503fb2",
+        "size_in_bytes": 257
+      },
+      {
+        "_path": "Lib/site-packages/pickleshare-0.7.5-py3.6.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "Lib/site-packages/pickleshare-0.7.5-py3.6.egg-info/installed-files.txt",
+        "path_type": "hardlink",
+        "sha256": "586928f5415443120f01a87d677a918b061f11f116d6abfe2659000ad9146ec1",
+        "sha256_in_prefix": "586928f5415443120f01a87d677a918b061f11f116d6abfe2659000ad9146ec1",
+        "size_in_bytes": 136
+      },
+      {
+        "_path": "Lib/site-packages/pickleshare-0.7.5-py3.6.egg-info/requires.txt",
+        "path_type": "hardlink",
+        "sha256": "de2cc06ec94616f33cdd567fb751e5260653dd3ed89b930572ce73a604ca0993",
+        "sha256_in_prefix": "de2cc06ec94616f33cdd567fb751e5260653dd3ed89b930572ce73a604ca0993",
+        "size_in_bytes": 49
+      },
+      {
+        "_path": "Lib/site-packages/pickleshare-0.7.5-py3.6.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "1a2617205194689807f88e7a194e90f4303c426c01b5334bd7f50c06511296db",
+        "sha256_in_prefix": "1a2617205194689807f88e7a194e90f4303c426c01b5334bd7f50c06511296db",
+        "size_in_bytes": 12
+      },
+      {
+        "_path": "Lib/site-packages/pickleshare.py",
+        "path_type": "hardlink",
+        "sha256": "600615fe0e690e755f3b721e479bccc8d3485ace1d84132d4df2077af2ca23a1",
+        "sha256_in_prefix": "600615fe0e690e755f3b721e479bccc8d3485ace1d84132d4df2077af2ca23a1",
+        "size_in_bytes": 9942
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "win32",
+  "requested_spec": "None",
+  "size": 13205,
+  "subdir": "win-64",
+  "timestamp": 1538598060765,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/pickleshare-0.7.5-py36_0.tar.bz2",
+  "version": "0.7.5"
+}

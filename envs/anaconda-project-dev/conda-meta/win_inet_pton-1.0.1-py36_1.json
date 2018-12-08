@@ -1,0 +1,60 @@
+{
+  "arch": "x86_64",
+  "build": "py36_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.6,<3.7.0a0"
+  ],
+  "extracted_package_dir": "C:\\Users\\tedal\\Anaconda3\\pkgs\\win_inet_pton-1.0.1-py36_1",
+  "features": "",
+  "files": [
+    "Lib/site-packages/__pycache__/win_inet_pton.cpython-36.pyc",
+    "Lib/site-packages/win_inet_pton-1.0.1-py3.6.egg-info",
+    "Lib/site-packages/win_inet_pton.py"
+  ],
+  "fn": "win_inet_pton-1.0.1-py36_1.tar.bz2",
+  "license": "PUBLIC-DOMAIN",
+  "link": {
+    "source": "C:\\Users\\tedal\\Anaconda3\\pkgs\\win_inet_pton-1.0.1-py36_1",
+    "type": 1
+  },
+  "md5": "0ecd051cc71116433db6a9be284b8f5c",
+  "name": "win_inet_pton",
+  "package_tarball_full_path": "C:\\Users\\tedal\\Anaconda3\\pkgs\\win_inet_pton-1.0.1-py36_1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/__pycache__/win_inet_pton.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "7ed495dde1111674e706120f63fba69adbb76f930db28f65639d9decb2929846",
+        "sha256_in_prefix": "7ed495dde1111674e706120f63fba69adbb76f930db28f65639d9decb2929846",
+        "size_in_bytes": 1908
+      },
+      {
+        "_path": "Lib/site-packages/win_inet_pton-1.0.1-py3.6.egg-info",
+        "path_type": "hardlink",
+        "sha256": "983c1383b23db62c429068bbd7a168dd0c64d5af3b51c64dc62dcabb8782fe6b",
+        "sha256_in_prefix": "983c1383b23db62c429068bbd7a168dd0c64d5af3b51c64dc62dcabb8782fe6b",
+        "size_in_bytes": 863
+      },
+      {
+        "_path": "Lib/site-packages/win_inet_pton.py",
+        "path_type": "hardlink",
+        "sha256": "6974f19756177ef0469def4fa4b2f495ee8a8c08012fdcafd2004b129c1fd84b",
+        "sha256_in_prefix": "6974f19756177ef0469def4fa4b2f495ee8a8c08012fdcafd2004b129c1fd84b",
+        "size_in_bytes": 2753
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "win32",
+  "requested_spec": "None",
+  "size": 5677,
+  "subdir": "win-64",
+  "timestamp": 1531666016682,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/win_inet_pton-1.0.1-py36_1.tar.bz2",
+  "version": "1.0.1"
+}
