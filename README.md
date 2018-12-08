@@ -1,24 +1,29 @@
-# Anaconda Project
+![Image](https://raw.githubusercontent.com/vertingo/Easy_Admin_YouTube_Newsletter_Firebase/master/web/assets/images/github/vertin_go_website.jpg)
+### 🌐 Apporter votre soutien au projet :heart: pour de futures évolutions!
+[![GitHub stars](https://img.shields.io/github/stars/vertingo/screenshott.svg?style=social&label=Star)](https://github.com/vertingo/Anaconda_Videos_Tutos) [![GitHub forks](https://img.shields.io/github/forks/vertingo/screenshott.svg?style=social&label=Fork)](https://github.com/vertingo/Anaconda_Videos_Tutos/fork) [![GitHub watchers](https://img.shields.io/github/watchers/vertingo/screenshott.svg?style=social&label=Watch)](https://github.com/vertingo/Anaconda_Videos_Tutos) [![GitHub followers](https://img.shields.io/github/followers/vertingo.svg?style=social&label=Follow)](https://github.com/vertingo)
+[![Twitter Follow](https://img.shields.io/twitter/follow/Vertin_Go.svg?style=social)](https://twitter.com/Vertin_Go)
 
-### Partie 1: Créer un projet Anaconda et ajouter des sections au anaconda-project.yml
+# 🌐 Anaconda Project
+
+### 🌐 Partie 1: Créer un projet Anaconda et ajouter des sections au anaconda-project.yml
 
 Prérequies Anaconda CLI(https://www.anaconda.com/download/)
 
-# Créer un projet Anaconda
+# 🌐 Créer un projet Anaconda
 
 anaconda-project init (Créer le fichier anaconda-project.yml) ou anaconda-project init --directory directory-name (Créer le dossier directory-name et créer dans ce dernier le anaconda-project.yml!)
 
 anaconda-project lock (Pour créer le anaconda-project-lock.yml si celui ci n'éxiste pas!)
 
 
-# Lancer un projet Anaconda
+# 🌐 Lancer un projet Anaconda
 
 anaconda-project run
 
 anaconda-project run command-name (Lance la commande command-name spécifié dans le anaconda-project.yml! Si aucune )
 
 
-# Ajouter une commande
+# 🌐 Ajouter une commande
 
 anaconda-project add-command name "command"
 
@@ -37,18 +42,18 @@ anaconda-project run upload_notebook (Lance la commande précèdement ajouté!)
 anaconda-project list-commands (Permet de lister l'ensemble des commandes du fichier anaconda-project.yml!)
 
 
-# Ajouter un package
+# 🌐 Ajouter un package
 
 anaconda-project add-packages bokeh=0.12 pandas
 
 Retrouver tous vos packages sur le chemin suivant: C:\Users\nom_d_utilisateur\AppData\Roaming\Python\Python37\site-packages
 
-# Ajouter un env-spec
+# 🌐 Ajouter un env-spec
 
 anaconda-project add-env-spec
 
 
-# Ajouter une variable
+# 🌐 Ajouter une variable
 
 
 anaconda-project add-variable VARIABLE_encrypt-flag (Create an encrypted variable!)
@@ -64,29 +69,29 @@ anaconda-project unset-variable VARIABLE (Restaure la valeur par défaut!)
 anaconda-project set-variable VARIABLE=value (Change la valeur de la variable VARIABLE)
 
 
-# Ajouter un service
+# 🌐 Ajouter un service
 
 anaconda-project add-service redis
 
 
-# Ajouter un download
+# 🌐 Ajouter un download
 
 anaconda-project add-download IRIS_CSV https://raw.githubusercontent.com/bokeh/bokeh/f9aa6a8caae8c7c12efd32be95ec7b0216f62203/bokeh/sampledata/iris.csv
 
 
-# Ajouter une archive
+# 🌐 Ajouter une archive
 
 anaconda-project archive filename.zip
 
 
-# Clean projet
+# 🌐 Clean projet
 
 anaconda-project clean
 
 
-### Partie 2: Upload a Package, Project, Notebook et Environnement
+### 🌐 Partie 2: Upload a Package, Project, Notebook et Environnement
 
-# Upload a Package
+# 🌐 Upload a Package
 
 conda install anaconda-client conda-build
 
@@ -103,33 +108,33 @@ anaconda login
 anaconda upload /path/to/conda-package.tar.bz2
 
 
-# Upload a Project
+# 🌐 Upload a Project
 
 anaconda-project upload (Taper simplement cette commande depuis le dossier racine de votre projet)
 
 
-# Upload a NoteBook
+# 🌐 Upload a NoteBook
 
 anaconda upload nom_de_votre_notebook.ipynb (Taper cette commande avec le nom de votre notebook au format ipynb)
 
 
-# Upload an Environnement
+# 🌐 Upload an Environnement
 
 conda env export -n my-environment -f my-environment.yml   (Créer un environnement)
 
 anaconda upload my-environment.yml
 
 
-### Jupyter NoteBookApp, Generation Docs, et OMDBAPP Partie 3: 
+### 🌐 Jupyter NoteBookApp, Generation Docs, et OMDBAPP Partie 3: 
 
 
-# NoteBookApp
+# 🌐 NoteBookApp
 
 jupyter notebook --generate-config (Génére le fichier de configuration dans le répertoire C:\Users\nom_utilisateur\.jupyter)
 
 Décommenter au moins les lignes suivantes dans C:\Users\tedal\.jupyter\jupyter_notebook_config.py
 
-# Set options for certfile, ip, password, and toggle off
+# 🌐 Set options for certfile, ip, password, and toggle off
 # browser auto-opening
 c.NotebookApp.certfile = u'/absolute/path/to/your/certificate/mycert.pem'
 c.NotebookApp.keyfile = u'/absolute/path/to/your/certificate/mykey.key'
@@ -152,7 +157,7 @@ jupyter notebook (Lancer le notebook dans le serveur, éditer un Notebook, lance
 
 anaconda upload nom_de_votre_notebook.ipynb (Pour upload un Notebook!)
 
-# IPython
+# 🌐 IPython
 
 pip install ipyparallel
 
@@ -178,7 +183,7 @@ In [13]: freqs = one_digit_freqs(digits)
 In [14]: plot_one_digit_freqs(freqs)
 Out[14]: [<matplotlib.lines.Line2D object at 0x18a55290>]
 
-Insertion dans un NoteBook:
+# 🌐 Insertion dans un NoteBook:
 
 import sympy
 import numpy as np
@@ -208,7 +213,7 @@ plt.xlabel('Digit')
 plt.ylabel('Count')
 
 
-# Génération de la doc
+# 🌐 Génération de la doc
 
 conda env create (Créer l'environnement d'éxécution à partir du fichier environnement.yml)
 
@@ -219,13 +224,11 @@ make html
 open build/html/index.html
 
 
-# OMDBApp
-
+# 🌐 OMDBApp
 
 anaconda-project run
 
 anaconda-project add-env-spec -n/--dev
-
 
 
 ```
