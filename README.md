@@ -168,6 +168,14 @@ c.NotebookApp.port = 9999
 
 ```
 openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout mykey.key -out mycert.pem
+(Si vous téléchargé OpenSSL n'oublié pas d'ajouter à la variable d'environnement PATH
+le path: C:\OpenSSL\bin dans Panneau de configuration\Système et sécurité\Système 
+Paramètre système avancés variables d'environnement.
+Une fois la commande exécuté vous obtiendrez les fichiers de certificats mykey.key
+et mycert.pem dans le dossier courant ou vous aurez exécuté la commande. Après il vous 
+faudra renseigner l'emplacement de ces deux fichiers dans le jupyter_notebook_config.py
+dans les variables c.NotebookApp.certfile, c.NotebookApp.keyfile illustré ci-dessus!)
+
 
 jupyter notebook --certfile=mycert.pem --keyfile mykey.key 
 (Sécurise la connexion avec un protocole de cummunication SSL)
