@@ -160,10 +160,15 @@ jupyter notebook --generate-config
 Décommenter au moins les lignes suivantes dans C:\Users\tedal\.jupyter\jupyter_notebook_config.py
 
 c.NotebookApp.certfile = u'/absolute/path/to/your/certificate/mycert.pem'
+
 c.NotebookApp.keyfile = u'/absolute/path/to/your/certificate/mykey.key'
+
 c.NotebookApp.ip = '*'
+
 c.NotebookApp.password = u'sha1:bcd259ccf...<your hashed password here>'
+	
 c.NotebookApp.open_browser = False 
+
 c.NotebookApp.port = 9999
 
 ```
