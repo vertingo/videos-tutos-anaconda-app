@@ -227,6 +227,51 @@ anaconda-project run
 anaconda-project add-env-spec -n/--dev
 
 
+# MPI
+
+
+Télécharger l'exécutable suivant et lancer l'installation
+(Les 2 options dépendent des spécificités de votre environnement!
+Si l'un ne fonctionne pas tester les deux): 
+https://www.microsoft.com/en-us/download/details.aspx?id=54607
+ou
+https://www.microsoft.com/en-us/download/details.aspx?id=47259
+
+Ajouter le chemin suivant à la variable path de votre environnement 
+dans le menu:
+Panneau de configuration\Système et sécurité\Système 
+et 
+Paramètres Systèmes avancés -> Variables Environnements: 
+
+C:\Program Files (x86)\Microsoft SDKs\MPI
+ou
+C:\Program Files\Microsoft MPI\Bin 
+
+pip install mpi4py
+
+Tester avec un petit programme:
+
+from mpi4py import MPI
+comm = MPI.COMM_WORLD
+rank = comm.Get_rank()
+print ('hello world from process ', rank)
+
+Si le programme ne fonctionne pas correctement soit mpi4py 
+(module could not be found) ou dll 
+(DLL load failed: The specified module could not be found)
+Assurez-vous d'avoir bien testé les deux liens d'installations
+ci-dessus et d'avoir bien renseignés les variables 
+d'environnements!
+
+ipython profile create --parallel --profile=mpi
+
+Editer ~/.ipython/profile_mpi/ipcluster_config.py 
+décommenter et modifier:
+c.IPClusterEngines.engine_launcher_class = 'MPIEngineSetLauncher'
+
+ipcluster start --profile=mpi -n 4
+
+
 
 ```
 Un petit coup de pouce suivez nous sur YouTube et Facebook!
