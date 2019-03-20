@@ -322,12 +322,6 @@ c.IPClusterEngines.engine_launcher_class = 'MPIEngineSetLauncher'
 ```
 ipcluster start --profile=mpi -n 4
 ```
-
-```
-Un petit coup de pouce suivez nous sur YouTube et Facebook!
-[You Tube] ==> https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1 
-[Facebook] ==> https://www.facebook.com/vertingo/ 
-```
   
 <p align="center">
   <a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://platform-media.herokuapp.com/assets/images/reseaux-sociaux/youtube2.png" width="400" height="250"/></a>
