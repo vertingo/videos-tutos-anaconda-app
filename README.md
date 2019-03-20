@@ -317,12 +317,14 @@ ipython profile create --parallel --profile=mpi
 
 Editer ~/.ipython/profile_mpi/ipcluster_config.py 
 décommenter et modifier:
+
 c.IPClusterEngines.engine_launcher_class = 'MPIEngineSetLauncher'
 
 ```
 ipcluster start --profile=mpi -n 4
 ```
-  
+
+Un petit coup de pouce? Suivez-nous sur les réseaux sociaux ci-dessous :)
 <p align="center">
   <a href="https://www.youtube.com/channel/UC2g_-ipVjit6ZlACPWG4JvA?sub_confirmation=1"><img src="https://platform-media.herokuapp.com/assets/images/reseaux-sociaux/youtube2.png" width="400" height="250"/></a>
   <a href="https://www.facebook.com/vertingo/"><img src="https://platform-media.herokuapp.com/assets/images/reseaux-sociaux/rejoins_nous.png" width="400" height="250"/></a>
