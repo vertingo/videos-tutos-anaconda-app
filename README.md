@@ -244,7 +244,6 @@ if normalize:
 
     freqs = freqs/freqs.sum()
     
-
 ax = plt.plot(freqs,'bo-')
 
 plt.title('Single digit counts in pi')
@@ -255,7 +254,6 @@ plt.ylabel('Count')
 ```
 
 ### 🌐 Génération de la doc
-
 ```
 conda env create 
 (Créer l'environnement d'éxécution à partir du fichier environnement.yml)
@@ -273,10 +271,8 @@ open build/html/index.html
 anaconda-project run
 
 anaconda-project add-env-spec -n/--dev
-
-
+```
 # MPI
-
 
 Télécharger l'exécutable suivant et lancer l'installation
 (Les 2 options dépendent des spécificités de votre environnement!
@@ -295,7 +291,9 @@ C:\Program Files (x86)\Microsoft SDKs\MPI
 ou
 C:\Program Files\Microsoft MPI\Bin 
 
+```
 pip install mpi4py
+```
 
 Tester avec un petit programme:
 
@@ -313,15 +311,17 @@ Assurez-vous d'avoir bien testé les deux liens d'installations
 ci-dessus et d'avoir bien renseignés les variables 
 d'environnements!
 
+```
 ipython profile create --parallel --profile=mpi
+```
 
 Editer ~/.ipython/profile_mpi/ipcluster_config.py 
 décommenter et modifier:
 c.IPClusterEngines.engine_launcher_class = 'MPIEngineSetLauncher'
 
+```
 ipcluster start --profile=mpi -n 4
-
-
+```
 
 ```
 Un petit coup de pouce suivez nous sur YouTube et Facebook!
