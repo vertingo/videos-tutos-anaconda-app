@@ -20,7 +20,8 @@ Prérequies Anaconda CLI(https://www.anaconda.com/download/)
 ### 🌐 Créer un projet Anaconda
 
 ```
-anaconda-project init (Créer le fichier anaconda-project.yml) ou anaconda-project init --directory directory-name 
+anaconda-project init (Créer le fichier anaconda-project.yml)
+ou anaconda-project init --directory directory-name 
 (Créer le dossier directory-name et créer dans ce dernier le anaconda-project.yml!)
 
 anaconda-project lock (Pour créer le anaconda-project-lock.yml si celui ci n'éxiste pas!)
